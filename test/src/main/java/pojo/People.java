@@ -1,9 +1,9 @@
 package pojo;
 
-import annotationTest.MyAutowire;
+import annotationTest.MyAutowired;
 
 public class People {
-	@MyAutowire(value = "233")
+	@MyAutowired(value = "233")
 	private String name;
 	private String sex;
 	private int age;

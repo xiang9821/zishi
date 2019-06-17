@@ -1,4 +1,4 @@
-package pojo;
+package service;
 
 public interface Action {
 
